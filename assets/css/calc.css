@@ -14,12 +14,12 @@
     transform: translate(-50%, -50%);
   }
   
-  #screen {
+  .screen {
     background-color: white;
     width: 300px;
     border-radius: 10px;
     font-size: 35px;
-    overflow: auto;
+    overflow: hidden;
     padding: 20px;
     text-align: right;
     margin-bottom: 10px;
@@ -31,7 +31,10 @@
     box-shadow: 0 40px 30px rgba(35, 35, 35, 0.1);
     padding: 30px;
     font-size: 20px;
+    overflow: hidden;
+    border-radius: 10px;
   }
+  
   
   .sympol {
     background-color: #ff5300;
